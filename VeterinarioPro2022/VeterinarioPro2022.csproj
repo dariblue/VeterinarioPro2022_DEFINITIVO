@@ -114,6 +114,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConexionJp.cs" />
     <Compile Include="Conexion_Dario.cs" />
     <Compile Include="Conexion_Corzo.cs" />
     <Compile Include="datos_animal.cs">
@@ -178,6 +179,9 @@
     <EmbeddedResource Include="inicio_cliente.resx">
       <DependentUpon>inicio_cliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="inicio_trabajador.resx">
+      <DependentUpon>inicio_trabajador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login_clientes.resx">
       <DependentUpon>login_clientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -235,6 +239,22 @@
   <ItemGroup>
     <Content Include="Erizo.ico" />
     <Content Include="LICENSE.txt" />
+    <None Include="Resources\beneficios-de-tener-un-gato.jpg" />
+    <None Include="Resources\GATO_1600x900.jpg" />
+    <None Include="Resources\gatetes.jpg" />
+    <None Include="Resources\razas-gatos-portada-848x477x80xX.jpg" />
+    <None Include="Resources\vete.jpg" />
+    <None Include="Resources\plaqueoff_gatos_01.jpg" />
+    <None Include="Resources\pulgasgato.jpg" />
+    <None Include="Resources\antiestres.jpg" />
+    <None Include="Resources\desparasitantegato.jpg" />
+    <None Include="Resources\collar_pulgas.jpg" />
+    <None Include="Resources\barritas-para-perros-sticks-dentales_1_g.jpeg" />
+    <None Include="Resources\collar antiparasitos.jpg" />
+    <None Include="Resources\collar antiparasitos para perros medianos o pequeños.jpg" />
+    <None Include="Resources\img_heridas-perros-patas-2.jpg" />
+    <None Include="Resources\1101154a.jpg" />
+    <None Include="Resources\perris.jpg" />
     <None Include="Resources\fondos-de-pantalla-de-pajaros.jpg" />
     <None Include="Resources\Equipo-Clinica-Veterinaria-Ejea-1.jpeg" />
     <None Include="Resources\istockphoto-1297688669-170667a.jpg" />

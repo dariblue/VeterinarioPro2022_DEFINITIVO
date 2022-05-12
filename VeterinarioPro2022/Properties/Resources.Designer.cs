@@ -63,9 +63,49 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1101154a {
+            get {
+                object obj = ResourceManager.GetObject("1101154a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap animal_branch_cute_snow_wallpaper_preview {
             get {
                 object obj = ResourceManager.GetObject("animal-branch-cute-snow-wallpaper-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap antiestres {
+            get {
+                object obj = ResourceManager.GetObject("antiestres", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap barritas_para_perros_sticks_dentales_1_g {
+            get {
+                object obj = ResourceManager.GetObject("barritas-para-perros-sticks-dentales_1_g", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap beneficios_de_tener_un_gato {
+            get {
+                object obj = ResourceManager.GetObject("beneficios-de-tener-un-gato", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -84,9 +124,49 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap collar_antiparasitos {
+            get {
+                object obj = ResourceManager.GetObject("collar antiparasitos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap collar_antiparasitos_para_perros_medianos_o_pequeños {
+            get {
+                object obj = ResourceManager.GetObject("collar antiparasitos para perros medianos o pequeños", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap collar_pulgas {
+            get {
+                object obj = ResourceManager.GetObject("collar_pulgas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cuidados_veterinarios_kNFH__1200x630_abc {
             get {
                 object obj = ResourceManager.GetObject("Cuidados-veterinarios-kNFH--1200x630@abc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap desparasitantegato {
+            get {
+                object obj = ResourceManager.GetObject("desparasitantegato", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -134,6 +214,26 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gatetes {
+            get {
+                object obj = ResourceManager.GetObject("gatetes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GATO_1600x900 {
+            get {
+                object obj = ResourceManager.GetObject("GATO_1600x900", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap giphy {
             get {
                 object obj = ResourceManager.GetObject("giphy", resourceCulture);
@@ -147,6 +247,16 @@ namespace VeterinarioPro2022.Properties {
         internal static System.Drawing.Bitmap grupo_de_animales_domésticos_en_el_fondo_blanco_93525756 {
             get {
                 object obj = ResourceManager.GetObject("grupo-de-animales-domésticos-en-el-fondo-blanco-93525756", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_heridas_perros_patas_2 {
+            get {
+                object obj = ResourceManager.GetObject("img_heridas-perros-patas-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -187,6 +297,56 @@ namespace VeterinarioPro2022.Properties {
         internal static System.Drawing.Bitmap MASCOTAS {
             get {
                 object obj = ResourceManager.GetObject("MASCOTAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perris {
+            get {
+                object obj = ResourceManager.GetObject("perris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plaqueoff_gatos_01 {
+            get {
+                object obj = ResourceManager.GetObject("plaqueoff_gatos_01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pulgasgato {
+            get {
+                object obj = ResourceManager.GetObject("pulgasgato", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap razas_gatos_portada_848x477x80xX {
+            get {
+                object obj = ResourceManager.GetObject("razas-gatos-portada-848x477x80xX", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vete {
+            get {
+                object obj = ResourceManager.GetObject("vete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
