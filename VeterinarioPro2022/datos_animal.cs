@@ -26,11 +26,11 @@ namespace VeterinarioPro2022
 
                 if (resultado)
                 {
-                    MessageBox.Show("Usuario creado");
+                    MessageBox.Show("Animal creado");
                 }
                 else
                 {
-                    MessageBox.Show("ERROR AL CREAR EL USUARIO");
+                    MessageBox.Show("ERROR AL CREAR EL ANIMAL");
                 }
             }
             else

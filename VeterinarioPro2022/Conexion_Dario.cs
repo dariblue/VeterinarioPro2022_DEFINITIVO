@@ -15,7 +15,7 @@ namespace VeterinarioPro2022
 
         public Conexion_Dario()
         {
-            conexion = new MySqlConnection("Server = 127.0.0.1; Database = veterinario; Uid = VeterinarioPro; Pwd =liSenDrinCle; Port = 3306");
+            conexion = new MySqlConnection("Server = 127.0.0.1; Database = veterinario; Uid = root; Pwd =; Port = 3306");
         }
 
         public Boolean login_Cliente(String dni, String contraseña)
@@ -24,7 +24,7 @@ namespace VeterinarioPro2022
             {
                 conexion.Open();
                 MySqlCommand consulta =
-                    new MySqlCommand("SELECT * FROM clientes where dni = @dni", conexion);
+                    new MySqlCommand("SELECT * FROM clientes where dni_cliente = @dni", conexion);
                 consulta.Parameters.AddWithValue("@dni", dni);
 
 
@@ -32,10 +32,14 @@ namespace VeterinarioPro2022
 
                 if (resultado.Read())
                 {
-                    string LaContraseña = resultado.GetString("contraseña");
-                    if( BCrypt.Net.BCrypt.Verify(contraseña, LaContraseña))
+                    string ContraseñaHass = resultado.GetString("contraseña");
+                    if( BCrypt.Net.BCrypt.Verify(contraseña, ContraseñaHass))
                     {
                         return true;
+                    }
+                    else
+                    {
+                        return false; 
                     }
                 }
                 
@@ -87,7 +91,7 @@ namespace VeterinarioPro2022
             {
                 conexion.Open();
                 MySqlCommand consulta =
-                    new MySqlCommand("INSERT INTO clientes (dni, nombre, usuario, contraseña) VALUES (@dni, @nombre, @usuario, @contraseña)", conexion);
+                    new MySqlCommand("INSERT INTO clientes (dni_cliente,nombre,usuario,contraseña) VALUES (@dni,@nombre,@usuario,@contraseña)", conexion);
                 consulta.Parameters.AddWithValue("@dni", dni);
                 consulta.Parameters.AddWithValue("@nombre", nombre);
                 consulta.Parameters.AddWithValue("@usuario", usuario);

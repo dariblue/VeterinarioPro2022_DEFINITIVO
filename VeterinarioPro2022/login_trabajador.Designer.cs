@@ -38,6 +38,7 @@
             this.label_usuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.boton_supletorio = new System.Windows.Forms.Button();
+            this.HACK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // imageList1
@@ -138,6 +139,17 @@
             this.boton_supletorio.TabIndex = 23;
             this.boton_supletorio.UseVisualStyleBackColor = false;
             // 
+            // HACK
+            // 
+            this.HACK.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HACK.Location = new System.Drawing.Point(581, 187);
+            this.HACK.Name = "HACK";
+            this.HACK.Size = new System.Drawing.Size(129, 87);
+            this.HACK.TabIndex = 31;
+            this.HACK.Text = "HACK";
+            this.HACK.UseVisualStyleBackColor = true;
+            this.HACK.Click += new System.EventHandler(this.HACK_Click);
+            // 
             // login_trabajador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -145,6 +157,7 @@
             this.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.Fondo_de_pantalla_veterinario;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 565);
+            this.Controls.Add(this.HACK);
             this.Controls.Add(this.contraseñaUsuario);
             this.Controls.Add(this.NombreUsuario);
             this.Controls.Add(this.botonAcceder);
@@ -169,5 +182,6 @@
         private System.Windows.Forms.Label label_usuario;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button boton_supletorio;
+        private System.Windows.Forms.Button HACK;
     }
 }

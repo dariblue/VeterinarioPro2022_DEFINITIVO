@@ -76,5 +76,11 @@ namespace VeterinarioPro2022
 
 
         }
+
+        private void HACK_Click(object sender, EventArgs e)
+        {
+            registro_t pasacontraseña = new registro_t();
+            pasacontraseña.Show();
+        }
     }
 }

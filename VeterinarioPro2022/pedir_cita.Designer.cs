@@ -114,11 +114,49 @@ namespace VeterinarioPro2022
             // 
             // horarioCita
             // 
+            this.horarioCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.horarioCita.FormattingEnabled = true;
+            this.horarioCita.Items.AddRange(new object[] {
+            "2022-05-16 11:00:00",
+            "2022-05-16 12:00:00",
+            "2022-05-16 13:00:00",
+            "2022-05-16 17:00:00",
+            "2022-05-16 18:00:00",
+            "2022-05-16 19:00:00",
+            "2022-05-16 20:00:00",
+            "2022-05-17 11:00:00",
+            "2022-05-17 12:00:00",
+            "2022-05-17 13:00:00",
+            "2022-05-17 17:00:00",
+            "2022-05-17 18:00:00",
+            "2022-05-17 19:00:00",
+            "2022-05-17 20:00:00",
+            "2022-05-18 11:00:00",
+            "2022-05-18 12:00:00",
+            "2022-05-18 13:00:00",
+            "2022-05-18 17:00:00",
+            "2022-05-18 18:00:00",
+            "2022-05-18 19:00:00",
+            "2022-05-18 20:00:00",
+            "2022-05-19 11:00:00",
+            "2022-05-19 12:00:00",
+            "2022-05-19 13:00:00",
+            "2022-05-19 17:00:00",
+            "2022-05-19 18:00:00",
+            "2022-05-19 19:00:00",
+            "2022-05-19 20:00:00",
+            "2022-05-20 11:00:00",
+            "2022-05-20 12:00:00",
+            "2022-05-20 13:00:00",
+            "2022-05-20 17:00:00",
+            "2022-05-20 18:00:00",
+            "2022-05-20 19:00:00",
+            "2022-05-20 20:00:00"});
             this.horarioCita.Location = new System.Drawing.Point(58, 272);
             this.horarioCita.Name = "horarioCita";
-            this.horarioCita.Size = new System.Drawing.Size(236, 21);
+            this.horarioCita.Size = new System.Drawing.Size(236, 32);
             this.horarioCita.TabIndex = 36;
+            this.horarioCita.Text = "Selecciona fecha y hora:";
             // 
             // label1
             // 

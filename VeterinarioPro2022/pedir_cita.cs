@@ -26,10 +26,10 @@ namespace VeterinarioPro2022
         }
         private void botonAnadir_Click(object sender, EventArgs e)
         {
-            if (chipMascota.Text.Length > 0 && motivoCita.Text.Length > 0)
+            if (chipMascota.Text.Length > 0 && motivoCita.Text.Length > 0 && horarioCita.Text.Length > 0)
             {
 
-                Boolean resultado = miConexion.insertaCitas(chipMascota.Text, motivoCita.Text);
+                Boolean resultado = miConexion.insertaCitas(chipMascota.Text, motivoCita.Text, horarioCita.Text);
 
                 if (resultado)
                 {

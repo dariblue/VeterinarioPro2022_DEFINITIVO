@@ -55,6 +55,13 @@ namespace VeterinarioPro2022
             ic.Show();
             Hide();
         }
+
+        private void botonAcceder_Click(object sender, EventArgs e)
+        {
+            Identificate inicio = new Identificate();
+            this.Close();
+            inicio.Show();
+        }
     }
 }
 

@@ -15,6 +15,7 @@ namespace VeterinarioPro2022
     {
 
         Conexion_Corzo miConexion = new Conexion_Corzo();
+        Conexion_Dario conexion = new Conexion_Dario();
 
         public registro_t()
         {

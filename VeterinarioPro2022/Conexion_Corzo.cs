@@ -68,14 +68,15 @@ namespace VeterinarioPro2022
             }
 
         }
-        public Boolean insertaCitas(string _Chip, string _motivoCita)
+        public Boolean insertaCitas(string _Chip, string _motivoCita, string _horarioCita)
         {
             try
             {
                 conexion.Open();
-                MySqlCommand consulta = new MySqlCommand("INSERT INTO citas (Chip,motivo)  VALUES (@_Chip,@_motivoCita)", conexion);
-                consulta.Parameters.AddWithValue("@_Chip", _Chip);
+                MySqlCommand consulta = new MySqlCommand("INSERT INTO citas (chip,motivo,fecha)  VALUES (@_chip,@_motivoCita,@horarioCita)", conexion);
+                consulta.Parameters.AddWithValue("@_chip", _Chip);
                 consulta.Parameters.AddWithValue("@_motivoCita", _motivoCita);
+                consulta.Parameters.AddWithValue("@_motivoCita", _horarioCita);
 
 
                 int resultado = consulta.ExecuteNonQuery(); //guardo el insert
