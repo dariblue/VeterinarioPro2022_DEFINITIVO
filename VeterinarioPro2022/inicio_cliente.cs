@@ -18,25 +18,7 @@ namespace VeterinarioPro2022
             InitializeComponent();
             oculta_primerapag();
         }
-
-        private void inicio_cliente_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            datos_animal da = new datos_animal();
-            da.Show();
-            Hide();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            pedir_cita pc = new pedir_cita();
-            pc.Show();
-            Hide();
-        }
+        
         private void pictureBox5_Click(object sender, EventArgs e)
         {
 
@@ -162,7 +144,16 @@ namespace VeterinarioPro2022
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            datos_animal da = new datos_animal();
+            da.Show();
+            Hide();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pedir_cita pc = new pedir_cita();
+            pc.Show();
+            Hide();
         }
     }
 }
