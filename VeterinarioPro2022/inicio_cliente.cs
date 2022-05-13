@@ -13,6 +13,13 @@ namespace VeterinarioPro2022
 {
     public partial class inicio_cliente : Form
     {
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {   //codigo para que al cerrar el form se cierre la aplicacion
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+            Application.Exit();
+        }
+
         public inicio_cliente()
         {
             InitializeComponent();
@@ -156,11 +163,5 @@ namespace VeterinarioPro2022
             Hide();
         }
 
-        private void botonlogout_Click(object sender, EventArgs e)
-        {
-            Identificate inicio = new Identificate();
-            this.Close();
-            inicio.Show();
-        }
     }
 }

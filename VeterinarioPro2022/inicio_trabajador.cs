@@ -14,6 +14,14 @@ namespace VeterinarioPro2022
     {
         Conexion miConexion = new Conexion();
         DataTable datosmascota = new DataTable();
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {   //codigo para que al cerrar el form se cierre la aplicacion
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+            Application.Exit();
+        }
+
+
         public inicio_trabajador()
         {
             InitializeComponent();

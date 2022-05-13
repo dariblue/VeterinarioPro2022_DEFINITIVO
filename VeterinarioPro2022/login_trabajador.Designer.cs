@@ -141,13 +141,20 @@
             // 
             // HACK
             // 
-            this.HACK.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HACK.Location = new System.Drawing.Point(581, 187);
+            this.HACK.BackColor = System.Drawing.Color.Transparent;
+            this.HACK.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.HACK.FlatAppearance.BorderSize = 2;
+            this.HACK.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.HACK.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.HACK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HACK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HACK.ForeColor = System.Drawing.Color.White;
+            this.HACK.Location = new System.Drawing.Point(160, 458);
             this.HACK.Name = "HACK";
-            this.HACK.Size = new System.Drawing.Size(129, 87);
+            this.HACK.Size = new System.Drawing.Size(195, 51);
             this.HACK.TabIndex = 31;
-            this.HACK.Text = "HACK";
-            this.HACK.UseVisualStyleBackColor = true;
+            this.HACK.Text = "REGISTRATE";
+            this.HACK.UseVisualStyleBackColor = false;
             this.HACK.Click += new System.EventHandler(this.HACK_Click);
             // 
             // login_trabajador

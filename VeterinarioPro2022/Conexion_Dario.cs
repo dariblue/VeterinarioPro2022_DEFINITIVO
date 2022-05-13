@@ -32,7 +32,7 @@ namespace VeterinarioPro2022
 
                 if (resultado.Read())
                 {
-                    string ContraseñaHass = resultado.GetString("contraseña");
+                    string ContraseñaHass = resultado.GetString("pass");
                     if( BCrypt.Net.BCrypt.Verify(contraseña, ContraseñaHass))
                     {
                         return true;
@@ -68,7 +68,7 @@ namespace VeterinarioPro2022
 
                 if (resultado.Read())
                 {
-                    string LaContraseña = resultado.GetString("contraseña");
+                    string LaContraseña = resultado.GetString("pass");
                     if (BCrypt.Net.BCrypt.Verify(contraseña, LaContraseña))
                     {
                         return true;
@@ -100,11 +100,11 @@ namespace VeterinarioPro2022
                 consulta.ExecuteNonQuery();
 
                 conexion.Close();
-                return "ok bb";
+                return "Cliente creado";
             }
             catch
             {
-                return ("webo");
+                return ("Error");
             }
         }
 

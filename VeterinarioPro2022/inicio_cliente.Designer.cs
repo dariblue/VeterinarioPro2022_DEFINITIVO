@@ -64,7 +64,6 @@ namespace VeterinarioPro2022
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.botonlogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -85,7 +84,7 @@ namespace VeterinarioPro2022
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Location = new System.Drawing.Point(672, 261);
-            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(72, 27);
             this.button10.TabIndex = 39;
@@ -100,7 +99,7 @@ namespace VeterinarioPro2022
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Location = new System.Drawing.Point(238, 106);
-            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(70, 27);
             this.button13.TabIndex = 38;
@@ -115,7 +114,7 @@ namespace VeterinarioPro2022
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Location = new System.Drawing.Point(238, 293);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(70, 27);
             this.button12.TabIndex = 37;
@@ -130,7 +129,7 @@ namespace VeterinarioPro2022
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Location = new System.Drawing.Point(670, 125);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(71, 27);
             this.button11.TabIndex = 36;
@@ -145,7 +144,7 @@ namespace VeterinarioPro2022
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Location = new System.Drawing.Point(672, 261);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(72, 27);
             this.button8.TabIndex = 34;
@@ -160,7 +159,7 @@ namespace VeterinarioPro2022
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(670, 125);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(71, 27);
             this.button6.TabIndex = 32;
@@ -175,7 +174,7 @@ namespace VeterinarioPro2022
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(238, 106);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(70, 27);
             this.button4.TabIndex = 31;
@@ -190,7 +189,7 @@ namespace VeterinarioPro2022
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(238, 293);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(70, 27);
             this.button5.TabIndex = 30;
@@ -265,7 +264,7 @@ namespace VeterinarioPro2022
             this.pictureBox8.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.antiestres;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox8.Location = new System.Drawing.Point(8, 236);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(92, 84);
             this.pictureBox8.TabIndex = 21;
@@ -276,7 +275,7 @@ namespace VeterinarioPro2022
             this.pictureBox7.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.plaqueoff_gatos_01;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox7.Location = new System.Drawing.Point(442, 236);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(93, 84);
             this.pictureBox7.TabIndex = 20;
@@ -287,7 +286,7 @@ namespace VeterinarioPro2022
             this.pictureBox6.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.pulgasgato;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Location = new System.Drawing.Point(446, 80);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(92, 84);
             this.pictureBox6.TabIndex = 19;
@@ -299,7 +298,7 @@ namespace VeterinarioPro2022
             this.pictureBox5.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.desparasitantegato;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Location = new System.Drawing.Point(9, 80);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(92, 84);
             this.pictureBox5.TabIndex = 18;
@@ -309,7 +308,7 @@ namespace VeterinarioPro2022
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(656, 6);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(64, 27);
             this.button3.TabIndex = 17;
@@ -332,7 +331,7 @@ namespace VeterinarioPro2022
             this.pictureBox4.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.collar_pulgas;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(443, 236);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(92, 84);
             this.pictureBox4.TabIndex = 15;
@@ -353,7 +352,7 @@ namespace VeterinarioPro2022
             this.pictureBox3.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.barritas_para_perros_sticks_dentales_1_g;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(446, 80);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(92, 84);
             this.pictureBox3.TabIndex = 13;
@@ -375,7 +374,7 @@ namespace VeterinarioPro2022
             this.pictureBox2.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.collar_antiparasitos;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(9, 237);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(92, 83);
             this.pictureBox2.TabIndex = 11;
@@ -386,7 +385,7 @@ namespace VeterinarioPro2022
             this.pictureBox1.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.collar_antiparasitos_para_perros_medianos_o_pequeños;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(9, 80);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(92, 84);
             this.pictureBox1.TabIndex = 10;
@@ -406,7 +405,7 @@ namespace VeterinarioPro2022
             // button9
             // 
             this.button9.Location = new System.Drawing.Point(724, 6);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(64, 27);
             this.button9.TabIndex = 7;
@@ -479,13 +478,12 @@ namespace VeterinarioPro2022
             // 
             this.tabPage1.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.gatete;
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage1.Controls.Add(this.botonlogout);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(796, 427);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
@@ -526,30 +524,11 @@ namespace VeterinarioPro2022
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(796, 427);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // botonlogout
-            // 
-            this.botonlogout.BackColor = System.Drawing.Color.Transparent;
-            this.botonlogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.botonlogout.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.botonlogout.FlatAppearance.BorderSize = 3;
-            this.botonlogout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.botonlogout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.botonlogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonlogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonlogout.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.botonlogout.Location = new System.Drawing.Point(713, 6);
-            this.botonlogout.Name = "botonlogout";
-            this.botonlogout.Size = new System.Drawing.Size(80, 34);
-            this.botonlogout.TabIndex = 28;
-            this.botonlogout.Text = "Log-Out";
-            this.botonlogout.UseVisualStyleBackColor = false;
-            this.botonlogout.Click += new System.EventHandler(this.botonlogout_Click);
             // 
             // inicio_cliente
             // 
@@ -612,6 +591,5 @@ namespace VeterinarioPro2022
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Button botonlogout;
     }
 }

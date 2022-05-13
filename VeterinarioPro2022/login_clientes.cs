@@ -71,13 +71,6 @@ namespace VeterinarioPro2022
             }
         }
 
-        private void Stresser_contraseña_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            inicio_cliente pantallaCliente = new inicio_cliente();
-            pantallaCliente.Show();
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             registro_c registro_cliente = new registro_c();

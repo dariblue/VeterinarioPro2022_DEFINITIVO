@@ -43,7 +43,7 @@ namespace VeterinarioPro2022
             try
             {
                 conexion.Open();
-                MySqlCommand consulta = new MySqlCommand("INSERT INTO animales(chip,nombre,raza,especie,dni)  VALUES (@_chip,@_nombreMascota,@_especieMascota,@_razaMascota,@_DNI)", conexion);
+                MySqlCommand consulta = new MySqlCommand("INSERT INTO animales(chip,nombre,raza,especie,dni_cliente)  VALUES (@_chip,@_nombreMascota,@_especieMascota,@_razaMascota,@_DNI)", conexion);
                 consulta.Parameters.AddWithValue("@_chip", _chip);
                 consulta.Parameters.AddWithValue("@_nombreMascota", _nombreMascota);
                 consulta.Parameters.AddWithValue("@_especieMascota", _especieMascota);
@@ -73,10 +73,10 @@ namespace VeterinarioPro2022
             try
             {
                 conexion.Open();
-                MySqlCommand consulta = new MySqlCommand("INSERT INTO citas (chip,motivo,fecha)  VALUES (@_chip,@_motivoCita,@horarioCita)", conexion);
+                MySqlCommand consulta = new MySqlCommand("INSERT INTO citas (chip,motivo,fecha)  VALUES (@_chip,@_motivoCita,@_horarioCita)", conexion);
                 consulta.Parameters.AddWithValue("@_chip", _Chip);
                 consulta.Parameters.AddWithValue("@_motivoCita", _motivoCita);
-                consulta.Parameters.AddWithValue("@_motivoCita", _horarioCita);
+                consulta.Parameters.AddWithValue("@_horarioCita", _horarioCita);
 
 
                 int resultado = consulta.ExecuteNonQuery(); //guardo el insert
